@@ -65,7 +65,7 @@ h2 {
     font-family: 'Pretendard-Regular';
     font-weight: 900;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 .album-images {
@@ -87,6 +87,7 @@ h2 {
 /* 숨겨진 이미지를 보이게 하는 스타일 */
 .album-images a {
     position: relative; /* 자식 이미지들의 기준 위치 */
+    filter: drop-shadow(10px 6px 6px #404040); /*그림자*/
 }
 
 .album-images a:hover {
@@ -112,4 +113,17 @@ h2 {
     opacity: 1; /* 보이게 설정 */
     visibility: visible; /* 보이게 설정 */
     z-index: 1; /* 이미지가 앞에 보이도록 설정 */
+}
+
+.goods-img {
+    width: 230px;
+    height: 390px;
+}
+
+.goods-images {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    position: relative;
+    margin-top: 30px;
 }
