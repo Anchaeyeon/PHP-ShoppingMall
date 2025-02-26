@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.rogo {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.navbar {
+    background-color: #68BFE3 !important;
+}
+
+.navbar-brand {
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Pretendard-Regular';
+    color: white;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.1); /* 확대 */
+    transition: all 0.3s ease;
+}
+
+.navbar-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    object-fit: cover; /* 이미지 비율 유지 */
+}
+
+.navbar-img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+
+
+
+footer {
+    background-color: #B9B9B9;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;  /* 화면 하단에 고정 */
+    width: 100%;  /* 전체 너비 */
+    display: flex;
+    justify-content: space-between; /* 왼쪽과 오른쪽에 공간을 균등하게 배분 */
+    align-items: center;
+}
+
+footer a {
+    font-family: 'Pretendard-Regular';
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-rogo {
+    margin: 0;
+}
+
+footer .footer-rogo a {
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+footer .icon {
+    text-align: right;
+}
+
+footer .icon a {
+    font-size: small;
+    color: white;
+    text-decoration: none;
+}
+
+footer .icon a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    margin-left: 5px;
+    width: 27px;
+    height: 27px;
+}
